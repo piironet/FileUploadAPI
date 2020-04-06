@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "2a4f36c8-6a41-4de0-b2dd-3f883a9722c8",
+		"name": "FileUploadApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UploadApi",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "multipart/form-data; boundary=---------------------------9051914041544843365972754266",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "-----------------------------9051914041544843365972754266\r\nContent-Disposition: form-data; name=\"file1\"; filename=\"a.txt\"\r\nContent-Type: text/plain\r\n\r\nContent of a.txt."
+				},
+				"url": {
+					"raw": "https://localhost:44377/api/Documents",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44377",
+					"path": [
+						"api",
+						"Documents"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
