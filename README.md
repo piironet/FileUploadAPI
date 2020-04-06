@@ -10,3 +10,7 @@ Content-Disposition: form-data; name="file1"; filename="a.txt"
 Content-Type: text/plain
 
 Content of a.txt.'
+
+
+Or you can use PostMan by importing the collection which includes example request.
+https://github.com/piironet/FileUploadAPI/blob/master/FileUploadApi.postman_collection.json
