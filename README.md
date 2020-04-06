@@ -1,6 +1,6 @@
 # FileUploadAPI
 
-To test file upload here is curl example:
+To test file upload here is curl example (rows 5-12):
 
 curl --location --request POST 'https://localhost:44377/api/Documents' \
 --header 'Content-Type: multipart/form-data; boundary=---------------------------9051914041544843365972754266' \
@@ -12,5 +12,8 @@ Content-Type: text/plain
 Content of a.txt.'
 
 
+------------------
+
 Or you can use PostMan by importing the collection which includes example request.
+
 https://github.com/piironet/FileUploadAPI/blob/master/FileUploadApi.postman_collection.json
